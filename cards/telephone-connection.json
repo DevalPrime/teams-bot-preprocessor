@@ -1,0 +1,24 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Connection - Select issue type",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Calls",
+      "data": { "selection": "Calls", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "SMS",
+      "data": { "selection": "SMS", "isLeaf": true }
+    }
+  ]
+}

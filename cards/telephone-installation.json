@@ -1,0 +1,29 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Installation - Select platform",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "iOS",
+      "data": { "selection": "iOS", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Android",
+      "data": { "selection": "Android", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Windows",
+      "data": { "selection": "Windows", "isLeaf": true }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Onboarding & Email - Select issue type",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "New member signup",
+      "data": { "selection": "New member signup", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Email access",
+      "data": { "selection": "Email access", "isLeaf": true }
+    }
+  ]
+}

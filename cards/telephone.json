@@ -1,0 +1,34 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Telephone - Select issue type",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "New User",
+      "data": { "selection": "New User", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Login",
+      "data": { "selection": "Login", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Installation",
+      "data": { "selection": "Installation", "nextCard": "telephone-installation" }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Connection",
+      "data": { "selection": "Connection", "nextCard": "telephone-connection" }
+    }
+  ]
+}

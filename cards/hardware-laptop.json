@@ -1,0 +1,24 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Laptop/Desktop - What's the problem?",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Login",
+      "data": { "selection": "Login", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Hardware",
+      "data": { "selection": "Hardware", "isLeaf": true }
+    }
+  ]
+}

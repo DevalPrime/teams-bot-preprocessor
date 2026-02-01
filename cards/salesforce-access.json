@@ -1,0 +1,29 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Access / Login - What's the problem?",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Cannot login",
+      "data": { "selection": "Cannot login", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Password reset",
+      "data": { "selection": "Password reset", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "MFA issues",
+      "data": { "selection": "MFA issues", "isLeaf": true }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "teams-bot-preprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20 <23"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adaptivecards": "^3.0.5",
+    "botbuilder": "^4.23.3",
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "restify": "^11.1.0"
+  }
+}

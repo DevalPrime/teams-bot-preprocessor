@@ -1,0 +1,24 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Office Software - Select issue type",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "OneDrive",
+      "data": { "selection": "OneDrive", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Word / Excel",
+      "data": { "selection": "Word / Excel", "isLeaf": true }
+    }
+  ]
+}

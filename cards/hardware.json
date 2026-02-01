@@ -1,0 +1,24 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Hardware - Select issue type",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Printers",
+      "data": { "selection": "Printers", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Laptop/Desktop",
+      "data": { "selection": "Laptop/Desktop", "nextCard": "hardware-laptop" }
+    }
+  ]
+}

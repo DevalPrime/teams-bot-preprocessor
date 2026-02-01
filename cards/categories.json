@@ -1,0 +1,61 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Tech Support",
+      "weight": "Bolder",
+      "size": "Large"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Select your support category",
+      "size": "Medium",
+      "color": "Default"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Salesforce",
+      "data": { "selection": "Salesforce", "nextCard": "salesforce" }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Hardware",
+      "data": { "selection": "Hardware", "nextCard": "hardware" }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Network / Internet",
+      "data": { "selection": "Network / Internet", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Onboarding & Email",
+      "data": { "selection": "Onboarding & Email", "nextCard": "onboarding" }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Office Software",
+      "data": { "selection": "Office Software", "nextCard": "office-software" }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Telephone",
+      "data": { "selection": "Telephone", "nextCard": "telephone" }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Security",
+      "data": { "selection": "Security", "isLeaf": true }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Other",
+      "data": { "selection": "Other", "isLeaf": true }
+    }
+  ]
+}
